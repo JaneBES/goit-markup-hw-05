@@ -677,11 +677,11 @@ fill: currentColor;
     background-color: rgba(0, 0, 0, 0.2);
    }
 
-/* .backdrop.is-hidden { 
+.backdrop.is-hidden { 
     opacity: 0;
     pointer-events: none;
 
-}*/
+}
 
 .modal {
     position: absolute;
@@ -691,9 +691,16 @@ fill: currentColor;
     width: 528px;
     height: 581px;
     background-color: #FFFFFF;
-color: #2196F3;
+
 }
 
+.modal-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+}
 
 
 
